@@ -22,8 +22,8 @@ __Office Hours:__ Wednesday 11a-12n & By Appointment
 __Assistant Faculty:__ Edward Banner [edward.banner@galvanize.com](mailto:edward.banner@galvanize.com)  
 
 __Class Location:__ 44 Tehama St, 309 classroom, San Francisco, CA   
-__Lecture Times/Days:__ 11a-1p & 3-5p, Monday & Tuesday
-__Lab Times/Days:__ 1p-2p & 5-6p, Monday & Tuesday
+__Lecture Times/Days:__ 11a-1p & 3-5p, Monday & Tuesday  
+__Lab Times/Days:__ 1p-2p & 5-6p, Monday & Tuesday  
 
 __Communication:__ [`#gu4_sf_dl`](https://gstudent.slack.com/archives/gu4_sf_dl)
 
