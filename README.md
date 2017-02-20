@@ -1,7 +1,7 @@
 GalvanizeU-University of New Haven <br> Master of Science in Data Science <br> DSCI6005: Deep Learning
 ----
 
-![](instructor/images/dl_tweet.png)
+![](resources/images/dl_tweet.png)
 
 Table of Contents:
 ----
