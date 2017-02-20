@@ -1,0 +1,38 @@
+# Create environment:
+# $ conda env create --force
+name: dl
+channels:
+  - conda-forge
+  - damianavila82
+dependencies:
+  - python = 3.6
+  - ipython
+  - jupyter
+  - anaconda
+  - matplotlib
+  - seaborn
+  - plotly
+  - numpy
+  - pandas
+  - scikit-learn
+  - requests
+  - setuptools
+#  - PIL # This is required for image processing. Edward needs to supply the corrrect package.
+  - pip
+  - pip:
+    - tensorflow >= 1.0
+    - keras
+    - rise
+    - nbbrowserpdf
+    - ipy-table
+    
+# Start environment
+# $ source activate dl
+
+# Update environment (might break stuff. move fast!?)
+# $ conda update --all --yes
+# $ pip install --upgrade -r <( pip freeze )
+
+# Setup RISE (https://github.com/damianavila/RISE) slideshows:
+# $ jupyter-nbextension install rise --py --sys-prefix
+# $ jupyter nbextension enable rise --py --sys-prefix
