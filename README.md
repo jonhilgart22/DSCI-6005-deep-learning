@@ -31,27 +31,28 @@ __Communication:__ [`#gu4_sf_dl`](https://gstudent.slack.com/archives/gu4_sf_dl)
 Course Description
 ----
 
-This course gives students an overview of Deep Learning, aka artificial neural networks. We will cover the mathematics and programming required to understand, design, and apply Deep Learning. Students will apply these techniques to real-world problems, for example image classification.  
+This course provides a broad overview of Deep Learning, aka artificial neural networks. We will cover the mathematics and programming required to understand the fundamentals of Deep Learning and design contemporary architectures. Students will apply these techniques to real-world problems, for example image classification.  
 
 ### By the end of this course, you should be able to:
 
-- Apply Deep Learning to solve a real world problem
-- Build a basic neural network from scratch
+- Apply Deep Learning to solve real world problems
+- Build a 3-layer artificial neural network from scratch
 - Explain and implement backpropagation algorithm
 - Build the following architectures:
     - Convolutional Neural Networks (CNN)
     - Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM)
+    - Generative Adversarial Nets (GANs)
+    - Reinforcement Learning (RL)
 
 ### Out of Scope
 
 - All other kinds of machine learning (We are only covering Deep Learning)
-- All other Deep Learning frameworks (We are only covering Keras and TensorFlow )
+- All other Deep Learning frameworks (We are only covering Keras and TensorFlow)
    - Theano, Caffe, CNTK, DSSTNE, PaddlePaddle, …
    - OpenAI Gym/Universe & DeepMind Lab
    - High Performance Computing (HPC)
    - Distributed systems
-- ALL other Hardware implementations (We are only covering Mac CPU)
-    - GPUs
+- ALL other hardware implementations (We are only covering Mac CPU and GPUs)
     - ASIC
     - Mobile
 - Deep Learning research (We are only covering applied Deep Learning)
@@ -70,24 +71,24 @@ Successful completion of:
 ### Required Resources 
 
 #### Books
-- Fundamentals_of_Deep_Learning in resources folder
-- Deep Learning Book http://www.deeplearningbook.org/
+- _Fundamentals of Deep Learning_
+- [Deep Learning](http://www.deeplearningbook.org/)
 
 #### MOOCs
-- http://course.fast.ai/
-- https://www.udacity.com/course/deep-learning--ud730
-- http://cs231n.stanford.edu/
+- [fast.ai](http://course.fast.ai/)
+- [Udacity's Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
+- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
 
 ### Optional Resources
-- https://github.com/ChristosChristofidis/awesome-deep-learning
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 
 ----
 Class Structure
 ----
 
-This course is an "active" learning environment. You'll learn through doing. The focus will be applying concepts through hand calculations and programming.
+This course is an "active" learning environment. You'll learn through doing. The focus will be on explaining concepts in your words and applying concepts through programming.
 
-Before class you will complete preparation materials (e.g., watch videos and read book chapters / blogs). All preparation materials should be covered prior to the start of each class session. They are __always required__ unless explicitly labeled as optional. These materials will be the resource for factual knowledge. I (Brian) will not be delivering traditional lectures. You are expected to be familiar with the basic concepts and technical jargon before the start of class.
+Before class you will complete preparation materials (e.g., watch videos and read book chapters / blogs). All preparation materials should be covered __prior__ to the start of each class session. They are __always required__ unless explicitly labeled as optional. These materials will be the source of factual knowledge. You are expected to be familiar with the basic concepts and technical jargon before the start of class.
 
 In-class time is precious - We'll reserve it for discussion, presenting complex material, answering questions, and working on exercises.  
 
@@ -104,7 +105,7 @@ OYO activity is a creative activity to help you to integrate and apply the the p
 
 ### RATs
 
-The Readiness Assessment Tests (RATs) are intended to test your understanding of the materials presented thus far in the course. This includes recent preparation material and items from previous classes. There are 3 parts: individual, small-group, and class.
+The Readiness Assessment Tests (RATs) are intended to test your understanding of the materials presented thus far in the course. This includes material from previous classes. There are 3 parts: individual, small-group, and class.
 
 1. Each student will answer all the questions on the RAT individually.
 2. Then the class will split into teams of 3-4. Each team will answer the same questions again, the goal is to reach consensus. This is an opportunity for peer-to-peer instruction which is often more effective than lectures!
@@ -144,7 +145,7 @@ We will be using Galvanize's Learning Management System (LMS) which can be found
 
 ### Participation
 
-You must also show up prepared. Each person is important to the dynamic of the class, and therefore students are required to participate in class activities. Expect to be "cold called". I call on students at random not to put you on the spot but to keep you engaged in the material at all times.
+You must also show up prepared. Each person is important to the dynamic of the class, and therefore students are required to participate in class activities. Expect to be "cold called". I call on students at random, not to put you on the spot but, to keep you engaged in the material at all times.
 
 Attendance is mandatory. It is the responsibility of the student to attend all classes. If you have to miss class, due to sickness or other circumstances, please notify Brian by Slack in advance. Supporting documents (doctor’s notes) should accompany absences due to sickness. Each excused absences beyond 2 or any unexcused absences will result in lowering your __overall course grade by ⅓ of an entire letter grade__ (A->A-, A->B+). It is at the instructor’s discretion to deny any absences or to allow students to make-up assignments, exams, etc. resulted from any absences.
 
@@ -164,11 +165,11 @@ Course Schedule
 2. TensorFlow & CNN
     1. TensorFlow I
     2. Training Neural Networks 
-    3. Convolutional Neural Networks (CNNs)
-    4. Image Classification I  
+    3. Images and Convolution
+    4. Convolutional Neural Networks (CNNs)  
 3. Image Classification
-    1. Image Classification II 
-    2. Image Classification III 
+    1. Image Classification I
+    2. Image Classification II
     3. Optimization I
     4. Review / Project Check-in
 4. Other Architectures
@@ -183,14 +184,14 @@ Course Schedule
     4. Review / Project Check-in
 6. Other Applications
     1. Unsupervised learning
-    2. NLP 
-    3. Sequence-to-Sequence
+    2. Natural Language Processing (NLP)
+    3. Sequence-to-Sequence Learning
     4. Self Driving Cars 
 7. Contemporary Architectures
-    1. Generative Adversarial Nets I 
-    2. Generative Adversarial Nets II
-    3. Reinforcement Learning I
-    4. Reinforcement Learning II
+    1. Generative Adversarial Nets (GANs) I 
+    2. Generative Adversarial Nets (GANs) II
+    3. Reinforcement Learning (RL) I
+    4. Reinforcement Learning (RL) II
 8. Final Project
     1. Review
     2. Final Project Worksession

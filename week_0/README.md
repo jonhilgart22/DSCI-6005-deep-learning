@@ -9,4 +9,4 @@ Week 0: Preparation for Deep Learning course
 - Practice Numpy
     - See cheat sheet in readings folder
     - https://docs.scipy.org/doc/numpy-dev/user/quickstart.html
-- I really like [Data Camp for video and practice problems](https://www.datacamp.com/)
+- I really 😍 [Data Camp for video and practice problems](https://www.datacamp.com/)
