@@ -20,6 +20,7 @@ __Instructor:__ Dr. Brian Spiering [brian.spiering@galvanize.com](mailto:brian.s
 __Office Hours:__ Wednesday 11a-12n & By Appointment  
 
 __Assistant Faculty:__ Edward Banner [edward.banner@galvanize.com](mailto:edward.banner@galvanize.com)  
+__Office Hours:__ By Appointment  
 
 __Class Location:__ 44 Tehama St, 309 classroom, San Francisco, CA   
 __Lecture Times/Days:__ 11a-1p & 3-5p, Monday & Tuesday  
@@ -52,7 +53,7 @@ This course provides a broad overview of Deep Learning, aka artificial neural ne
    - OpenAI Gym/Universe & DeepMind Lab
    - High Performance Computing (HPC)
    - Distributed systems
-- ALL other hardware implementations (We are only covering Mac CPU and GPUs)
+- ALL other hardware implementations (We are only covering CPU and GPUs)
     - ASIC
     - Mobile
 - Deep Learning research (We are only covering applied Deep Learning)
@@ -122,8 +123,9 @@ Grades
 | Item | Weight  |  
 |:-------:|:------:|
 | Mastery Tracker | 10% |  
-| Participation | 30% | 
-| Final Project | 60% |
+| Participation | 20% | 
+| Lab | 30% |
+| Final Project | 40% |
 
 The expected grade is B+. Getting an A- or above requires completion of the Mastery Tracker, high level participation, and a stellar final project.
 
