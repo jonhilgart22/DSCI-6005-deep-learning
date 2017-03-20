@@ -35,4 +35,4 @@ dependencies:
 
 # Setup RISE (https://github.com/damianavila/RISE) slideshows:
 # $ jupyter-nbextension install rise --py --sys-prefix
-# $ jupyter nbextension enable rise --py --sys-prefix
+# $ jupyter-nbextension enable rise --py --sys-prefix

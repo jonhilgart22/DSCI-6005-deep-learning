@@ -76,9 +76,9 @@ Successful completion of:
 - [Deep Learning](http://www.deeplearningbook.org/)
 
 #### MOOCs
+- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
 - [fast.ai](http://course.fast.ai/)
 - [Udacity's Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
-- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
 
 ### Optional Resources
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
@@ -149,7 +149,7 @@ We will be using Galvanize's Learning Management System (LMS) which can be found
 
 You must also show up prepared. Each person is important to the dynamic of the class, and therefore students are required to participate in class activities. Expect to be "cold called". I call on students at random, not to put you on the spot but, to keep you engaged in the material at all times.
 
-Attendance is mandatory. It is the responsibility of the student to attend all classes. If you have to miss class, due to sickness or other circumstances, please notify Brian by Slack in advance. Supporting documents (doctor’s notes) should accompany absences due to sickness. Each excused absences beyond 2 or any unexcused absences will result in lowering your __overall course grade by ⅓ of an entire letter grade__ (A->A-, A->B+). It is at the instructor’s discretion to deny any absences or to allow students to make-up assignments, exams, etc. resulted from any absences.
+Attendance is __mandatory__. It is the responsibility of each student to attend all classes. If you have to miss class, due to any circumstances, please notify Brian by Slack ASAP. Supporting documents (e.g., doctor’s notes) should accompany absences due to sickness. Each excused absences beyond 2 or _each_ unexcused absences will result in lowering your __overall course grade by ⅓ of a letter grade__ (A->A-, A->B+, …). It is at the instructor’s discretion to deny any absences or to allow students to make-up course work resulting from any absences.
 
 ### Final Project
 
