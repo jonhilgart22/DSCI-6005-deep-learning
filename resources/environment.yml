@@ -17,7 +17,7 @@ dependencies:
   - scikit-learn
   - requests
   - setuptools
-#  - PIL # This is required for image processing. Edward needs to supply the corrrect package.
+  - pillow = 4
   - pip
   - pip:
     - tensorflow >= 1.0
