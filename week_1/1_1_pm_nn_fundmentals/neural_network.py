@@ -4,10 +4,10 @@ import numpy as np
 class NeuralNetwork:
     "Simple neural network"
     
-    def __init__(self):  
+    def __init__(self, hidden = 3):  
         # Network architecture      
         self.input_layer_size  = 2
-        self.hidden_layer_size = 3
+        self.hidden_layer_size = hidden
         self.output_layer_size = 1
         
         # Weights 
