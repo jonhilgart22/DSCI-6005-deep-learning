@@ -1,6 +1,8 @@
-# Graphics Processing Unit
+Graphics Processing Unit (GPUs)
+----
 
-## Readings
+Preparation Material
+---------
 
 | Source | Title | Notes | Priority |
 | ------ | ----- | ----- | -------- |
@@ -10,13 +12,19 @@
 | [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) | [Graphics Processing Unit](https://en.wikipedia.org/wiki/Graphics_processing_unit) | | Introductory
 | [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) | [Parallel Algorithm](https://en.wikipedia.org/wiki/Parallel_algorithm) | | Introductory
 | [Quant Start](https://www.quantstart.com/) | [Matrix-Matrix Multiplication on the GPU with Nvidia-CUDA](https://www.quantstart.com/articles/Matrix-Matrix-Multiplication-on-the-GPU-with-Nvidia-CUDA) | | Introductory
-| [cs231n](http://cs231n.stanford.edu/index.html) | [Convnets in Practice](https://www.youtube.com/watch?v=ue4RJdI8yRA&index=11&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA) | start at 49:43 | **Required** |
+| [cs231n](http://cs231n.stanford.edu/index.html) | [ConvNets in Practice](https://www.youtube.com/watch?v=ue4RJdI8yRA&index=11&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA) | start at 49:43 | **Required** |
 | [The Economist](http://www.econmist.com/) | [The Rise of Artificial Intelligence is Creating New Variety in the Chip Market, and Trouble for Intel](http://www.economist.com/news/business/21717430-success-nvidia-and-its-new-computing-chip-signals-rapid-change-it-architecture) | | **Required**
 | [Quora](https://www.quora.com/) | [Why are GPUs Well-Suited to Deep Learning?](https://www.quora.com/Why-are-GPUs-well-suited-to-deep-learning) | read Tim Dettmer's answer | **Required**
 | [Tim Dettmers](http://timdettmers.com/) | [Which is the Best GPU for Deep Learning?](http://timdettmers.com/2014/08/14/which-gpu-for-deep-learning/) | | Optional
 | [Tim Dettmers](http://timdettmers.com/) | [A Full Hardware Guide to Deep Learning](http://timdettmers.com/2015/03/09/deep-learning-hardware-guide/) | | Optional
+| | [Guide to setting up GPUs on Mac laptop](https://gist.github.com/Mistobaan/dd32287eeb6859c6668d) | | Optional |
+| fast.ai | [Another guide to setting up GPUs on AWS](http://course.fast.ai/lessons/aws.html) | | Optional |
+| | [| fast.ai |](https://medium.com/@mateuszsieniawski/keras-with-gpu-on-amazon-ec2-a-step-by-step-instruction-4f90364e49ac#.jescztubp)  | | Optional |
+| keras blog | [Yet Another guide to setting up GPUs on AWS](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html) | | Optional |
 
-## Configuring EC2 Instance for GPU Usage
+------
+Configuring EC2 Instance for GPU Usage
+------
 
 1. Visit Amazon [EC2 Dashboard](https://us-west-1.console.aws.amazon.com/ec2/v2/home?region=us-west-1)
 2. Click `Launch Instance`
@@ -29,7 +37,8 @@
 9. Click `View Instances`
 9. Log into your newly created instance (with the user `ubuntu`)
 
-## Configuring Tensorflow
+Configuring Tensorflow
+------
 
 1. Clone this repo
 2. Create a new anaconda environment with `resources/environment.yml`
