@@ -19,4 +19,5 @@ __Optional__:
 
 __Challenge__:
 
+- [FizzBuzz in TensorFlow](http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/)
 - https://medium.com/@Zelros/4-steps-to-learn-tensorflow-when-you-already-know-scikit-learn-3cd0340456b5#.5byq4w3pg

@@ -163,9 +163,9 @@ Course Schedule
     1. Welcome 
     2. Fundamentals
     3. Backpropagation I
-    4. Backpropagation II & Keras
+    4. Backpropagation II 
 2. Training Neural Networks
-    1. TensorFlow I
+    1. Keras & TensorFlow I
     2. Training Neural Networks I
     3. Images and Convolution
     4. Convolutional Neural Networks (CNNs)  
