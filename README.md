@@ -165,7 +165,7 @@ Course Schedule
     3. Backpropagation I
     4. Backpropagation II 
 2. Training Neural Networks
-    1. Keras & TensorFlow I
+    1. Keras
     2. Training Neural Networks I
     3. Images and Convolution
     4. Convolutional Neural Networks (CNNs)  
@@ -185,7 +185,7 @@ Course Schedule
     3. Architectures 
     4. Review / Project Check-in
 6. Applications
-    1. TensorFlow II
+    1. TensorFlow I
     2. Autoencoders & restricted Boltzmann machine (RBM)
     3. Unsupervised learning 
     4. Self Driving Cars 
