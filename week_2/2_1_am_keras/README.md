@@ -11,6 +11,7 @@ __Introductory__:
 __Required__:
 
 - [Keras Short Tutorial](https://www.youtube.com/watch?v=Tp3SaRbql4k)
+- [Optimizing Neural Networks using Keras](https://www.analyticsvidhya.com/blog/2016/10/tutorial-optimizing-neural-networks-using-keras-with-image-recognition-case-study/)
 - [Sequential Model Guide](https://keras.io/getting-started/sequential-model-guide/)
 - [About keras Models](https://keras.io/models/about-keras-models/)
 - [Integrating Keras & TensorFlow: The Keras workflow](https://www.youtube.com/watch?v=UeheTiBJ0Io&list=PLOU2XLYxmsIKGc_NBoIhTn2Qhraji53cv&index=7) 
