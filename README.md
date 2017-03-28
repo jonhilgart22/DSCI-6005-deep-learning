@@ -164,7 +164,7 @@ Course Schedule
     2. Fundamentals
     3. Backpropagation I
     4. Backpropagation II 
-2. Training Neural Networks
+2. Neural Network Training 
     1. Keras
     2. Training Neural Networks I
     3. Images and Convolution
@@ -174,22 +174,22 @@ Course Schedule
     2. Image Classification II
     3. Optimization I
     4. Review / Project Check-in
-4. Architectures for Sequence Learning (aka, Natural Language Processing)
+4. Sequence Learning (aka, Natural Language Processing)
     1. Recurrent Neural Networks (RNNs) 
     2. Long Short Term Memory (LSTM) Networks 
     3. Sequence-to-Sequence Learning
     4. Natural Language Processing (NLP)  
-5. Training Neural Networks Redux
+5. Neural Networks Training Redux
     1. Training Neural Networks II 
     2. Optimization II
     3. Architectures 
     4. Review / Project Check-in
-6. Applications
+6. Unsupervised learning
     1. TensorFlow I
     2. Autoencoders & restricted Boltzmann machine (RBM)
     3. Unsupervised learning 
     4. Self Driving Cars 
-7. Contemporary Architectures
+7. Modern Architectures
     1. Generative Adversarial Nets (GANs) I 
     2. Generative Adversarial Nets (GANs) II
     3. Reinforcement Learning (RL) I
