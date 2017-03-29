@@ -171,8 +171,8 @@ Course Schedule
     4. Convolutional Neural Networks (CNNs)  
 3. Image Classification
     1. Image Classification I
-    2. Image Classification II
-    3. Optimization I
+    2. Optimization I 
+    3. Image Classification II
     4. Review / Project Check-in
 4. Sequence Learning (aka, Natural Language Processing)
     1. Recurrent Neural Networks (RNNs) 
