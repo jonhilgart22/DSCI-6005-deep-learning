@@ -181,11 +181,11 @@ Course Schedule
     4. Natural Language Processing (NLP)  
 5. Neural Networks Training Redux
     1. Training Neural Networks II 
-    2. Optimization II
+    2. TensorFlow I / Optimization II
     3. Architectures 
     4. Review / Project Check-in
 6. Unsupervised learning
-    1. TensorFlow I
+    1. TensorFlow II
     2. Autoencoders & restricted Boltzmann machine (RBM)
     3. Unsupervised learning 
     4. Self Driving Cars 
