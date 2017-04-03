@@ -22,6 +22,7 @@ Deep Learning Glossary
 | GD | Gradient Descent |
 | GPU |  Graphics Processing Unit | 
 | LSTM | Long Short Term Memory networks |
+| MLP | Multi-Layer Perceptron |
 | MNIST | Mixed National Institute of Standards and Technology Database | 
 | MP | Max-Pooling | 
 | MPCNN | Max-Pooling CNN | 
