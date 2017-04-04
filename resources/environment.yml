@@ -19,11 +19,13 @@ dependencies:
   - pandas
   - scikit-learn
   - scikit-image
+  - h5py
   - requests
   - setuptools
   - pip
   - pip:
     - rise
+    - hyperas
     - nbbrowserpdf
     - ipy-table
     
