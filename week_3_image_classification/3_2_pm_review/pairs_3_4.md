@@ -1,18 +1,18 @@
-Mike and Bahman  
-Jaime and Srini  
+Mike and Bahman  1.1 am
+Jaime and Srini  1.1 pm
 
-Jeremy and Chip  
-Aubrey and Pranava  
+Jeremy and Chip  1.2 am
+Aubrey and Pranava 1.2 pm
 
-Carles and Vijeth  
-Tracy and Yun  
+Carles and Vijeth  2.1 am & 2.2 pm
+Tracy and Yun  2.2 am
 
-Jon and Luke  
-Prashil and Anthony  
+Jon and Luke  2.2 pm
+Prashil and Anthony  3.1 am
 
-Jonathan and Dasha  
-Victor and Christiaan  
+Jonathan and Dasha  3.1 pm
+Victor and Christiaan  3.1 am
 
 Daniel and Chau  
- with Camille  
+ with Camille  Top 3 (or 5) so far
   
