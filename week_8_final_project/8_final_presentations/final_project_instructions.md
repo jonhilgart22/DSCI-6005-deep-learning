@@ -17,11 +17,11 @@ Extra Credit
 ---
 Explore advanced options of your choosing. Suggestions:  
 
-- Search for optimal hyperparameters 
-- Combine different architectures (e.g., RNN into a Reinforcement Learning system)
-- Ability to understand your model (e.g., visualize layers or interpret changes in parameters)
+- Search for optimital hyperparameters 
+- Combine different architectures (e.g., RNN into Reinforcement Learning system)
+- Ability to understand your model (e.g., visualize layers or interpert changes in parameters)
 - How would you turn your project in a data product?
-- Create automated pipelines so your project can go into production.
+- Create automated pipelines to move your project into production.
 
 ----
 Hints
@@ -30,4 +30,6 @@ Hints
 - Go end-to-end as quickly possible. From raw data -> simple model -> evaluation.
     + Then explore alternatives for each stage.
 - Make the code run, make it right, make it fast (in that order).
-- How do get a "A"? __Do something out-of-the-box (seriously).__
+- How do get a "A"? 
+
+> Do something out-of-the-box (seriously).
