@@ -21,3 +21,4 @@ __Challenge__:
 
 - https://blog.acolyer.org/2017/03/23/recurrent-neural-network-models/
 - https://blog.acolyer.org/2017/03/03/rnn-models-for-image-generation/
+- [Augmented RNNs](http://distill.pub/2016/augmented-rnns/)
