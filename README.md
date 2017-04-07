@@ -22,7 +22,7 @@ __Office Hours:__ Wednesday 11a-12n & By Appointment
 __Assistant Faculty:__ Edward Banner [edward.banner@galvanize.com](mailto:edward.banner@galvanize.com)  
 __Office Hours:__ By Appointment  
 
-__Class Location:__ 44 Tehama St, 309 classroom, San Francisco, CA   
+__Class Location:__ 44 Tehama St, ~~309~~ 311 classroom, San Francisco, CA   
 __Lecture Times/Days:__ 11a-1p & 3-5p, Monday & Tuesday  
 __Lab Times/Days:__ 1p-2p & 5-6p, Monday & Tuesday  
 
@@ -179,21 +179,22 @@ Course Schedule
     2. Long Short Term Memory (LSTM) Networks 
     3. Sequence-to-Sequence Learning
     4. Natural Language Processing (NLP)  
-5. Neural Networks Training Redux
-    1. Training Neural Networks II 
-    2. TensorFlow I / Optimization II
-    3. Architectures 
+5. Reinforcement Learning (RL) 
+    1. TensorFlow I 
+    2. Reinforcement Learning (RL) I
+    3. Reinforcement Learning (RL) II
+    4. Training Neural Networks II
+6. Generative Adversarial Nets (GANs)
+    1. Optimization II
+    2. Generative Adversarial Nets (GANs) I 
+    3. Generative Adversarial Nets (GANs) II
     4. Review / Project Check-in
-6. Unsupervised learning
+7. Unsupervised learning
+    1. Combing CNN & RNN Architectures 
     1. TensorFlow II
-    2. Autoencoders & restricted Boltzmann machine (RBM)
-    3. Unsupervised learning 
-    4. Self Driving Cars 
-7. Modern Architectures
-    1. Generative Adversarial Nets (GANs) I 
-    2. Generative Adversarial Nets (GANs) II
-    3. Reinforcement Learning (RL) I
-    4. Reinforcement Learning (RL) II
+    1. Autoencoders & restricted Boltzmann machine (RBM)
+    1. Unsupervised learning 
+    1. Self Driving Cars 
 8. Final Project
     1. Review
     2. Final Project Worksession
