@@ -20,6 +20,7 @@ __Challenge__:
 - [Dynamic Memory Networks for Natural Language Processing](https://arxiv.org/pdf/1506.07285.pdf)
 - [Learning when to skim and when to read](https://metamind.io/research/learning-when-to-skim-and-when-to-read)
 - [Learning to communicate](https://openai.com/blog/learning-to-communicate/)
-- CS224n: Natural Language Processing with Deep Learning
-    - http://web.stanford.edu/class/cs224n/
-    - https://github.com/stanfordnlp/cs224n-winter17-notes
+- cs224n: Natural Language Processing with Deep Learning from Stanford
+    - [Course homepage](http://web.stanford.edu/class/cs224n/) - A complete survey of the field with videos, lecture slides, and sample student projects.
+    - [Course Lectures](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) Playlist of videos
+    - [Course notes](https://github.com/stanfordnlp/cs224n-winter17-notes) Probably the best "book" on DL for NLP.
