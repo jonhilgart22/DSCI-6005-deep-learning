@@ -182,19 +182,18 @@ Course Schedule
 5. Reinforcement Learning (RL) 
     1. TensorFlow I 
     2. Reinforcement Learning (RL) I
-    3. Reinforcement Learning (RL) II
-    4. Training Neural Networks II
+    3. Training Neural Networks II
+    4. Reinforcement Learning (RL) II
 6. Generative Adversarial Nets (GANs)
     1. Optimization II
     2. Generative Adversarial Nets (GANs) I 
     3. Generative Adversarial Nets (GANs) II
     4. Review / Project Check-in
 7. Unsupervised learning
-    1. Combing CNN & RNN Architectures 
     1. TensorFlow II
-    1. Autoencoders & restricted Boltzmann machine (RBM)
-    1. Unsupervised learning 
-    1. Self Driving Cars 
+    2. Unsupervised learning Autoencoders
+    3. TensorFlow III
+    4. Combing CNN & RNN
 8. Final Project
     1. Review
     2. Final Project Worksession
