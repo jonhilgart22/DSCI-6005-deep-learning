@@ -5,6 +5,10 @@ __Introductory__:
 
 - [TensorFlow: Machine Learning for Everyone](https://www.youtube.com/watch?v=mWl45NkFBOc&list=PLOU2XLYxmsIKGc_NBoIhTn2Qhraji53cv&index=1)
 - [Keynote (TensorFlow Dev Summit 2017)](https://www.youtube.com/watch?v=4n1AHvDvVvw&list=PLOU2XLYxmsIKGc_NBoIhTn2Qhraji53cv&index=2)
+- [Getting Started with TensorFlow](https://www.tensorflow.org/get_started/get_started)
+- [Deep MNIST for Experts](https://www.tensorflow.org/get_started/mnist/pros)
+- [TensorBoard: Visualizing Learning](https://www.tensorflow.org/get_started/summaries_and_tensorboard)
+- [TensorBoard: Graph Visualization](https://www.tensorflow.org/get_started/graph_viz)
 
 __Required__:
 
