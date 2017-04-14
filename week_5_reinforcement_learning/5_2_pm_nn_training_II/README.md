@@ -11,6 +11,8 @@ __Required__:
 
 - Read Chapter 7 "Regularization for Deep Learning" from Deep Learning book
 - [Rethinking Generalization in Deep Learning](https://medium.com/intuitionmachine/rethinking-generalization-in-deep-learning-ec66ed684ace)
+- [cs231n Training Neural Networks I](https://youtu.be/GUtlrDbHhJM?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA) (start at 33:56)
+- [cs231n Training Neural Networks II](https://www.youtube.com/watch?v=KaR4lIdI1MQ&index=6&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA) (watch 36:16 - 57:29)
 
 __Optional__:
 
