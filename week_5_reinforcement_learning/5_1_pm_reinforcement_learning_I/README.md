@@ -1,4 +1,4 @@
-Deep Reinforcement Learning (RL)
+Deep Reinforcement Learning (RL) I
 ----
 
 __Introductory__:
@@ -13,15 +13,15 @@ __Required__:
 - [Demystifying Deep Reinforcement Learning](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
 - [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
 - Tutorial: Deep Reinforcement Learning by David Silver
-    + [video](https://www.youtube.com/watch?v=2pWv7GOvuf0)
-    + Slides in readings (Are extact but similar enough)
+    + [video](https://www.youtube.com/watch?v=2pWv7GOvuf0) Starting at 6:20
+    + Slides in readings
 
 __Optional__:
 
 - [What can go wrong with RL](https://www.openai.com/blog/faulty-reward-functions/)
-- [Deep Reinforcement Learning](https://www.youtube.com/watch?v=PtAIh9KSnjo)
 
 __Challenge__:
 
+- [Practical RL](https://github.com/yandexdataschool/Practical_RL)
 - [RL course from DeepMind](https://www.youtube.com/playlist?list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT)
 - [RL course from NIPS 2016](https://sites.google.com/site/deeprlnips2016/)
