@@ -25,6 +25,7 @@ dependencies:
   - pip
   - pip:
     - rise
+    - pygame
     - hyperas
     - nbbrowserpdf
     - ipy-table
