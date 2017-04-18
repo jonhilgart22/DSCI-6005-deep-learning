@@ -27,7 +27,7 @@ dependencies:
     - rise
     - pygame
     - hyperas
-    - nbbrowserpdf
+    #- nbbrowserpdf
     - ipy-table
     
 # Start environment

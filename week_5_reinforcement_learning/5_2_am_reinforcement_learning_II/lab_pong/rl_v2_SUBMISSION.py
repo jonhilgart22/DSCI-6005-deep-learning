@@ -1,17 +1,17 @@
-"""DQN. 
+"""DQN.
 
 Uses reinforcement learning through trial and error to maximize action based on reward.
 This is called Q Learning which is an agent envrioment loop.
 
 Policy is mapping of state to action. Learns from past policies.
 
-CNN reads in pixel data so based on just game state. 
+CNN reads in pixel data so based on just game state.
 """
 
 from collections import deque # queue data structure. fast appends. and pops. replay memory
-import random  
+import random
 
-import numpy as np  
+import numpy as np
 import tensorflow as tf
 
 import pong  # Pong game
@@ -39,31 +39,33 @@ def createGraph():
 
     # CNN
     # creates an empty tensor with all elements set to zero with a shape
-    W_conv1 = tf.Variable(None) # TODO: 
-    b_conv1 = tf.Variable(None) # TODO: 
+    W_conv1 = tf.Variable(tf.zeros(shape=[2,2,4,100])) # TODO:
+    b_conv1 = tf.Variable(tf.zeros(shape=[100])) # TODO:
 
-    W_conv2 = tf.Variable(None) # TODO: 
-    b_conv2 = tf.Variable(None) # TODO: 
+    W_conv2 = tf.Variable(tf.zeros(shape=[2,2,100,50])) # TODO:
+    b_conv2 = tf.Variable(tf.zeros(shape=[50])) # TODO:
 
-    W_conv3 = tf.Variable(None) # TODO: 
-    b_conv3 = tf.Variable(None) # TODO: 
+    W_conv3 = tf.Variable(tf.zeros(shape=[2,2,50,40])) # TODO:
+    b_conv3 = tf.Variable(tf.zeros(shape=[40])) # TODO:
 
-    W_fc4 = tf.Variable(None) # TODO: 
-    b_fc4 = tf.Variable(None) # TODO: 
+    W_fc4 = tf.Variable(tf.zeros(shape=[3136,30])) # TODO:
+    b_fc4 = tf.Variable(tf.zeros(shape=[30]) )# TODO:
 
-    W_fc5 = tf.Variable(None) # TODO: 
-    b_fc5 = tf.Variable(None) # TODO: 
+    W_fc5 = tf.Variable(tf.zeros(shape=[30,20])) # TODO:
+    b_fc5 = tf.Variable(tf.zeros(shape=[20])) # TODO:
 
     # input for pixel data
-    s = tf.placeholder("float", [None, INPUT_SIZE, INPUT_SIZE, 4])
+    s = tf.placeholder("float", shape=[None, INPUT_SIZE, INPUT_SIZE, 4])
 
     # Computes rectified linear unit activation fucntion on a 2-D convolution
     # given 4-D input and filter tensors
-    conv1 = tf.nn.relu(None) # TODO: 
 
-    conv2 = tf.nn.relu(None) # TODO: 
+    conv1 = tf.nn.relu(tf.nn.conv2d(s, W_conv1,[1,1,1,1],"SAME") + b_conv1 ) # TODO:
 
-    conv3 = tf.nn.relu(None) # TODO:
+    conv2 = tf.nn.relu(tf.nn.conv2d(conv1, W_conv2,[1,1,1,1],"SAME") + b_conv2) # TODO:
+
+
+    conv3 = tf.nn.relu(tf.nn.conv2d(conv2, W_conv3,[1,1,1,1],"SAME") + b_conv3) # TODO:
 
     conv3_flat = tf.reshape(conv3, [-1, 7 * 7 * 64])
 
@@ -81,13 +83,16 @@ def trainGraph(inp, out, sess):
 
     # to calculate the argmax, we multiply the predicted output with a vector
     # with one value 1 and rest as 0
+    # with one value 1 and rest as 0
     argmax = tf.placeholder("float", [None, ACTIONS])
     gt = tf.placeholder("float", [None])  # ground truth
 
     # action
-    action = tf.reduce_sum(tf.multiply(out, argmax), reduction_indices=1)
+    y_pred = tf.reduce_sum(tf.matmul(argmax, out )) # TODO:
+
     # cost function we will reduce through backpropagation
-    cost = tf.reduce_mean(tf.square(action - gt))
+    cost =  tf.reduce_mean(tf.square(y_pred - gt)) # TODO:
+
     # optimization function to reduce our minimize our cost function
     train_step = tf.train.AdamOptimizer(1e-6).minimize(cost)
 
@@ -134,7 +139,7 @@ def trainGraph(inp, out, sess):
         reward_t, frame = game.getNextFrame(argmax_t)
 
         frame = np.reshape(frame, (INPUT_SIZE, INPUT_SIZE, 1))
-        
+
         # new input tensor
         inp_t1 = np.append(frame, inp_t[:, :, 0:3], axis=2)
 
@@ -188,6 +193,6 @@ if __name__ == "__main__":
 
     # input layer and output layer by creating graph
     inp, out = createGraph()
-    
+
     # train our graph on input and output with session variables
     trainGraph(inp, out, sess)
