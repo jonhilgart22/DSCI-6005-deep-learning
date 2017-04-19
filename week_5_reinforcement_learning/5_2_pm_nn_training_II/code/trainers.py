@@ -30,3 +30,22 @@ class MLPTrainer(Trainer):
         model.add(Dense(units=self.Y[0].shape[0]))
         model.add(Activation('softmax'))
         self.model = model
+
+class CNNTrainer(Trainer):
+    """CNN Trainer"""
+    
+    def build_model(self):
+        from keras.layers import Conv2D, Dropout, Flatten, Dense, MaxPooling2D, Activation
+        from keras.models import Sequential
+        
+        model =Sequential()
+        model.add(Conv2D(32, (2,2), input_shape=self.X[0].shape, activation='relu'))
+        model.add(MaxPooling2D(pool_size=(2,2)))
+        model.add(Conv2D(64, (2,2), activation='relu'))  
+        model.add(Dropout(.3))
+        model.add(Flatten())                   
+        model.add(Dense(units=self.Y[0].shape[0]))
+        model.add(Activation('softmax'))
+        self.model = model
+        
+    
