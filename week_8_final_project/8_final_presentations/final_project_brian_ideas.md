@@ -9,11 +9,7 @@ Brian's ideas for Final Project (YMMV)
     - See a Beth play "Beth" by KISS 
     - See a Alison by "Alison" by Elvis Costello
 - A self driving car that follows people in a creepy way
-<<<<<<< HEAD
-- Image Style Transfer
-    + Your face with a celebrity for kid planning
-    + Your face with emoji 😜
-=======
+- http://www.deeplearningpatterns.com/doku.php/applications
 - [Image Style Transfer](https://hackernoon.com/non-artistic-style-transfer-or-how-to-draw-kanye-using-captain-picards-face-c4a50256b814)
     + Your face with a celebrity for kid planning
     + Your face with emoji 😜
@@ -24,4 +20,4 @@ Brian's ideas for Final Project (YMMV)
         + Changes the gui based on how the users uses it
         + Rewrites the Kernel based on which processes are used the most
 - CNNs for spam classification. The idea is that spammers are getting good at good at disguising their messages with special characters (e.g. 0besity Bl0cker L0wering C0verage).  Instead of writing tons of rules (e.g. replace 0 with o) let's rely on the "shape" of a word to recover the word itself. You could train a CNN to do this (essentially OCR). Run a spam dataset through your trained model and have it spit out real words as opposed to fake. Train a spam classifier on your CNN-preprocessed documents and show that it improves performance over a naive spam classifier. I'd give you a gold star if it worked :slightly_smiling_face:
->>>>>>> origin/master
+

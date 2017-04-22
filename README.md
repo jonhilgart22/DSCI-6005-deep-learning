@@ -16,10 +16,10 @@ Table of Contents:
 Logistics
 ------
 
-__Instructor:__ Dr. Brian Spiering [brian.spiering@galvanize.com](mailto:brian.spiering@galvanize.com)  
+__Instructor:__ Dr. Brian Spiering brian.spiering@galvanize.com
 __Office Hours:__ Wednesday 11a-12n & By Appointment  
 
-__Assistant Faculty:__ Edward Banner [edward.banner@galvanize.com](mailto:edward.banner@galvanize.com)  
+__Assistant Faculty:__ Edward Banner edward.banner@galvanize.com  
 __Office Hours:__ By Appointment  
 
 __Class Location:__ 44 Tehama St, ~~309~~ 311 classroom, San Francisco, CA   
@@ -182,8 +182,8 @@ Course Schedule
 5. Reinforcement Learning (RL) 
     1. TensorFlow I 
     2. Reinforcement Learning (RL) I
-    3. Training Neural Networks II
-    4. Reinforcement Learning (RL) II
+    3. Reinforcement Learning (RL) II 
+    4. Training Neural Networks II
 6. Generative Adversarial Nets (GANs)
     1. Optimization II
     2. Generative Adversarial Nets (GANs) I 
@@ -191,9 +191,9 @@ Course Schedule
     4. Review / Project Check-in
 7. Unsupervised learning
     1. TensorFlow II
-    2. Unsupervised learning Autoencoders
-    3. TensorFlow III
-    4. Combing CNN & RNN
+    2. Unsupervised Learning & Autoencoders
+    3. Combing CNN & RNN
+    4. Style Transfer (?)
 8. Final Project
     1. Review
     2. Final Project Worksession
