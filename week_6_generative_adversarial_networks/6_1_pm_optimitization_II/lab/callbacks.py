@@ -6,11 +6,8 @@ class AddTimestamp(Callback):
     """Assigns unique ids to metrics for scalar summary visualizations in TensorBoard"""
 
     def __init__(self, config):
-        if 'name' in config:
-            self.exp = config['name']
-        else:
-            self.exp =  '+'.join(f'{key}={value}' for key, value in config.items())
-
+        name = config['name']
+        self.exp = '+'.join(f'{key}={value}' for key, value in config.items()) if not name else name
         self.T = datetime.now()
 
     def on_epoch_end(self, epoch, logs={}):
