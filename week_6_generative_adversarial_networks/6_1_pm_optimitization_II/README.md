@@ -1,9 +1,9 @@
-Optimitization II
+Optimization II
 ----
 
 __Introductory__:
 
-- Review Optimitization I
+- Review Optimization I
 
 __Required__:
 
