@@ -27,11 +27,16 @@ dependencies:
     - rise
     - pygame
     - hyperas
+    - pydot
+    - pydot-ng
     - nbbrowserpdf
     - ipy-table
     
 # Start environment
 # $ source activate dl
+
+# Add cli to support Keras visualizations
+# $ brew install graphviz
 
 # Update environment (might break stuff. move fast!?)
 # $ conda update --all --yes
