@@ -27,6 +27,7 @@ def data():
     nb_classes = 10
     y_train = np_utils.to_categorical(y_train, nb_classes)
     y_test = np_utils.to_categorical(y_test, nb_classes)
+    print(type(x_train),' type x train')
     return x_train, y_train, x_test, y_test
 
 
