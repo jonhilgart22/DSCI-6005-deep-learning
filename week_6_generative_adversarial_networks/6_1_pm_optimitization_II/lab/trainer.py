@@ -20,7 +20,7 @@ class Trainer:
         raise NotImplementedError(err_str)
 
     def compile_model(self):
-        self.model.compile(optimizer='sgd', loss='categorical_crossentropy', metrics=['accuracy'])
+        self.model.compile(optimizer=self.C['optimizer'], loss='categorical_crossentropy', metrics=['accuracy'])
         self.model.summary()
 
     def fit(self):
