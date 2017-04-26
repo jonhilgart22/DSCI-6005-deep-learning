@@ -191,9 +191,9 @@ Course Schedule
     4. Review / Project Check-in
 7. Unsupervised learning
     1. TensorFlow II
-    2. Unsupervised Learning & Autoencoders
-    3. Combing CNN & RNN
-    4. Style Transfer (?)
+    2. Unsupervised Learning I
+    3. Attention-Based Models
+    4. Unsupervised Learning II
 8. Final Project
     1. Review
     2. Final Project Worksession
