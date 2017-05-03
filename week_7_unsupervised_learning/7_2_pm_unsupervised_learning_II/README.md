@@ -8,7 +8,9 @@ __Introductory__:
 
 __Required__:
 
-- [CS231n Lecture 9](https://www.youtube.com/watch?v=GHVaaHESrlY) from 42:42
+- CS231n Lecture 9
+    - [video](https://www.youtube.com/watch?v=GHVaaHESrlY) from 42:42
+    - [slides](http://cs231n.stanford.edu/slides/2016/winter1516_lecture9.pdf)
 - [DeepDream blog post](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) 
 - _Image Style Transfer Using Convolutional Neural Networks_ in readings folder
 
